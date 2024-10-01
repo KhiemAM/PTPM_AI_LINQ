@@ -1,0 +1,9 @@
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.exe.config
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.exe
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.pdb
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csprojResolveAssemblyReference.cache
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Form1.resources
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Properties.Resources.resources
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.GenerateResource.Cache
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.exe
+D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.pdb
