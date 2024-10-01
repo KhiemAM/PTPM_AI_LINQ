@@ -53,7 +53,7 @@ namespace Buoi06_LinQ
 
         public IQueryable<object> sumDiemMonHoc()
         {
-            var sinhviens = qlsv.SinhViens.Join(qlsv.Diems, sv => sv.MaSinhVien, d => d.MaSinhVien, (sv, d) => new { sv.MaSinhVien, sv.HoTen, d.Diem1 }).GroupBy(sv => sv.MaSinhVien);
+            var sinhviens = qlsv.Diems.GroupBy(d => d.MaSinhVien).Select(kq => new { Masv = kq.Key, TongDiem = kq.Sum(s => s.Diem1) }).Join(qlsv.SinhViens, kq => kq.Masv, sv => sv.MaSinhVien, (kq, sv) => new { sv.MaSinhVien, sv.HoTen, kq.TongDiem});
             return sinhviens;
         }
     }

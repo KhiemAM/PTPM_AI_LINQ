@@ -7,3 +7,12 @@ D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Pr
 D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.GenerateResource.Cache
 D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.exe
 D:\1LuuDuLieuSV\HuynhQuangKhiem\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.pdb
+C:\Buoi06_LinQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.exe.config
+C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.exe
+C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.pdb
+C:\Buoi06_LinQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.exe
+C:\Buoi06_LinQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.pdb
+C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csprojResolveAssemblyReference.cache
+C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Form1.resources
+C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Properties.Resources.resources
+C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.GenerateResource.Cache

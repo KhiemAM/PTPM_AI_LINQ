@@ -23,6 +23,12 @@ namespace Buoi06_LinQ
             btn_getSinhVien2And3.Click += btn_getSinhVien2And3_Click;
             btn_SXGiamDanTheoTen.Click += btn_SXGiamDanTheoTen_Click;
             btn_GetSVLop.Click += btn_GetSVLop_Click;
+            btn_SumDiem.Click += btn_SumDiem_Click;
+        }
+
+        void btn_SumDiem_Click(object sender, EventArgs e)
+        {
+            dgv_SinhVien.DataSource = sv.sumDiemMonHoc();
         }
 
         void btn_GetSVLop_Click(object sender, EventArgs e)

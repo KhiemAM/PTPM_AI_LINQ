@@ -35,6 +35,7 @@
             this.btn_getSinhVien2And3 = new System.Windows.Forms.Button();
             this.btn_SXGiamDanTheoTen = new System.Windows.Forms.Button();
             this.btn_GetSVLop = new System.Windows.Forms.Button();
+            this.btn_SumDiem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_MonHoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SinhVien)).BeginInit();
             this.SuspendLayout();
@@ -100,11 +101,21 @@
             this.btn_GetSVLop.Text = "Lay sinh vien va lop";
             this.btn_GetSVLop.UseVisualStyleBackColor = true;
             // 
+            // btn_SumDiem
+            // 
+            this.btn_SumDiem.Location = new System.Drawing.Point(815, 157);
+            this.btn_SumDiem.Name = "btn_SumDiem";
+            this.btn_SumDiem.Size = new System.Drawing.Size(146, 23);
+            this.btn_SumDiem.TabIndex = 7;
+            this.btn_SumDiem.Text = "Tinh tong diem sv";
+            this.btn_SumDiem.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1413, 637);
+            this.Controls.Add(this.btn_SumDiem);
             this.Controls.Add(this.btn_GetSVLop);
             this.Controls.Add(this.btn_SXGiamDanTheoTen);
             this.Controls.Add(this.btn_getSinhVien2And3);
@@ -129,6 +140,7 @@
         private System.Windows.Forms.Button btn_getSinhVien2And3;
         private System.Windows.Forms.Button btn_SXGiamDanTheoTen;
         private System.Windows.Forms.Button btn_GetSVLop;
+        private System.Windows.Forms.Button btn_SumDiem;
     }
 }
 
