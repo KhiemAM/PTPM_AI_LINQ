@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLSINHVIEN_PTPM_AI">
+  <DataContextMoniker Name="/QLSINHVIEN_PTPM_AIDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9131f51b-199a-4e7b-92db-8671a0625884" absoluteBounds="6, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce1b75fb-3698-4e9f-932d-b7423bb8310b" absoluteBounds="6.015, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5a0af0aa-83f8-422c-b1aa-23aec55ec570" absoluteBounds="7.875, 2.75, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/Diem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cb56ad4-c316-4fef-bd04-a540daa1a5e8" absoluteBounds="7.8900000000000006, 3.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bcaad56-daa6-451a-96cd-8daa424ddd8b" absoluteBounds="0.875, 1.5, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/Khoa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a41e5a6-aa54-45e5-912f-a82038212464" absoluteBounds="0.89, 1.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bddc868d-c59a-4f95-91c3-9317674ed16f" absoluteBounds="3.25, 0.625, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/Lop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="234aff22-0be7-4ac7-9727-1e9681b4445c" absoluteBounds="3.265, 1.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86aec779-9a66-48f6-8548-712ca5ca28b5" absoluteBounds="2.75, 3.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/MonHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="149a5b72-8993-4090-b72c-9c3559c6b663" absoluteBounds="2.7649999999999997, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.9374995 : 2.07859537760417); (6.9374995 : 3.34657148632812); (7.875 : 3.34657148632812)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/SinhVien/SinhVien_Diem" />
+      <nodes>
+        <classShapeMoniker Id="9131f51b-199a-4e7b-92db-8671a0625884" />
+        <classShapeMoniker Id="5a0af0aa-83f8-422c-b1aa-23aec55ec570" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 1.31814697265625); (6 : 1.31814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/Lop/Lop_SinhVien" />
+      <nodes>
+        <classShapeMoniker Id="bddc868d-c59a-4f95-91c3-9317674ed16f" />
+        <classShapeMoniker Id="9131f51b-199a-4e7b-92db-8671a0625884" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.875 : 1.75564697265625); (3.25 : 1.75564697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/Khoa/Khoa_Lop" />
+      <nodes>
+        <classShapeMoniker Id="7bcaad56-daa6-451a-96cd-8daa424ddd8b" />
+        <classShapeMoniker Id="bddc868d-c59a-4f95-91c3-9317674ed16f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.75 : 4.00564697265625); (7.875 : 4.00564697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSINHVIEN_PTPM_AIDataContext/MonHoc/MonHoc_Diem" />
+      <nodes>
+        <classShapeMoniker Id="86aec779-9a66-48f6-8548-712ca5ca28b5" />
+        <classShapeMoniker Id="5a0af0aa-83f8-422c-b1aa-23aec55ec570" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

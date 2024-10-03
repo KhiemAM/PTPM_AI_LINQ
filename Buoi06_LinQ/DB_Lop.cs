@@ -6,19 +6,14 @@ using System.Threading.Tasks;
 
 namespace Buoi06_LinQ
 {
-    public class DB_MonHoc
+    public class DB_Lop
     {
         QLSINHVIEN_PTPM_AIDataContext qlsv = new QLSINHVIEN_PTPM_AIDataContext();
-        public DB_MonHoc()
+        public DB_Lop() { }
+
+        public IQueryable loadLop()
         {
-
+            return qlsv.Lops.Select(l => new {l.MaLop, l.TenLop, l.MaKhoa});
         }
-
-        public IQueryable<MonHoc> loadMonhoc()
-        {
-            var monhocs = from mh in qlsv.MonHocs select mh;
-            return monhocs;
-        }
-
     }
 }

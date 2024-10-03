@@ -8,7 +8,7 @@ namespace Buoi06_LinQ
 {
     public class DB_SinhVien
     {
-        QLSINHVIENDataContext qlsv = new QLSINHVIENDataContext();
+        QLSINHVIEN_PTPM_AIDataContext qlsv = new QLSINHVIEN_PTPM_AIDataContext();
         public DB_SinhVien()
         {
 

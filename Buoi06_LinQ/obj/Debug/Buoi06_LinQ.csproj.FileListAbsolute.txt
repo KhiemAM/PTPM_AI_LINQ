@@ -16,3 +16,15 @@ C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csprojResolveAssemblyReference.
 C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Form1.resources
 C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Properties.Resources.resources
 C:\Buoi06_LinQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.GenerateResource.Cache
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.exe.config
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.exe
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\bin\Debug\Buoi06_LinQ.pdb
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.AssemblyReference.cache
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.SuggestedBindingRedirects.cache
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Form1.resources
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.LopForm.resources
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.Properties.Resources.resources
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.GenerateResource.cache
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.csproj.CoreCompileInputs.cache
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.exe
+E:\Nam_4\HK1\PTPM_AI\PTPM_AI_LINQ\Buoi06_LinQ\obj\Debug\Buoi06_LinQ.pdb
