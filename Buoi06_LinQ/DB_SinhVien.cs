@@ -14,47 +14,55 @@ namespace Buoi06_LinQ
 
         }
 
-        public IQueryable<object> loadSinhVien()
+        public IQueryable loadSinhVien()
         {
-            var sinhviens = from sv in qlsv.SinhViens select new { sv.MaSinhVien, sv.HoTen };
-            return sinhviens;
+            return qlsv.SinhViens.Join(qlsv.Lops, sv => sv.MaLop, l => l.MaLop, (sv, l) => new { sv.MaSinhVien, sv.HoTen, sv.NgaySinh, l.TenLop });
         }
 
-        public IQueryable<SinhVien> getFirstSinhVien()
+        public bool addSinhVien(SinhVien sv)
         {
-            var sinhvien = (from sv in qlsv.SinhViens select sv).Skip(0).Take(1);
-            return sinhvien;
+            try
+            {
+                qlsv.SinhViens.InsertOnSubmit(sv);
+                qlsv.SubmitChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
-        public IQueryable<SinhVien> getEndSinhVien()
+        public bool updateSinhVien(SinhVien sv)
         {
-            var sinhvien = (from sv in qlsv.SinhViens select sv).OrderByDescending(sv => sv.MaSinhVien).Skip(0).Take(1);
-            return sinhvien;
+            try
+            {
+                SinhVien sinhVien = qlsv.SinhViens.Where(s => s.MaSinhVien == sv.MaSinhVien).FirstOrDefault();
+                sinhVien.HoTen = sv.HoTen;
+                sinhVien.NgaySinh = sv.NgaySinh;
+                sinhVien.MaLop = sv.MaLop;
+                qlsv.SubmitChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
-        public IQueryable<SinhVien> getSinhVien2And3()
+        public bool deleteSinhVien(string pMaSV)
         {
-            var sinhvien = (from sv in qlsv.SinhViens select sv).Skip(1).Take(2);
-            return sinhvien;
-        }
-
-        public IQueryable<SinhVien> sapXepGiamDanTheoTen()
-        {
-            var sinhvien = (from sv in qlsv.SinhViens select sv).OrderByDescending(sv => sv.HoTen);
-            return sinhvien;
-        }
-
-        public IQueryable<object> getSinhVienLop()
-        {
-            var sinhviens = qlsv.SinhViens.Join(qlsv.Lops, sv => sv.MaLop, l => l.MaLop, (sv, l) => new { sv.MaSinhVien, sv.HoTen, l.TenLop });
-            return sinhviens;
-
-        }
-
-        public IQueryable<object> sumDiemMonHoc()
-        {
-            var sinhviens = qlsv.Diems.GroupBy(d => d.MaSinhVien).Select(kq => new { Masv = kq.Key, TongDiem = kq.Sum(s => s.Diem1) }).Join(qlsv.SinhViens, kq => kq.Masv, sv => sv.MaSinhVien, (kq, sv) => new { sv.MaSinhVien, sv.HoTen, kq.TongDiem});
-            return sinhviens;
+            try
+            {
+                SinhVien sinhVien = qlsv.SinhViens.Where(s => s.MaSinhVien == pMaSV).FirstOrDefault();
+                qlsv.SinhViens.DeleteOnSubmit(sinhVien);
+                qlsv.SubmitChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

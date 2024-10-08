@@ -16,6 +16,11 @@ namespace Buoi06_LinQ
             return qlsv.Lops.Join(qlsv.Khoas, l => l.MaKhoa, kh => kh.MaKhoa, (l, kh) => new { l.MaLop, l.TenLop, kh.TenKhoa });
         }
 
+        public IQueryable loadLopByMaKhoa(string pMaKhoa)
+        {
+            return qlsv.Lops.Where(l => l.MaKhoa == pMaKhoa);
+        }
+
         public bool addLop(Lop pLop)
         {
             try

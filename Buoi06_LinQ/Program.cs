@@ -16,7 +16,7 @@ namespace Buoi06_LinQ
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LopForm());
+            Application.Run(new SinhVienForm());
         }
     }
 }
